@@ -27,7 +27,7 @@ let info = prettyjson.render({...obsinfo, ...info_json}, {
 })
 
 console.log(cowsay.say({
-  text : `${name}\n${info}`,
+  text : `${name}\n${info}\n`,
   cow: cowsay.SQUIRREL,
   e : "oO",
   T : "U ",
