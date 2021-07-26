@@ -1,0 +1,30 @@
+{
+  "name": "maiconandsilva",
+  "version": "1.24.0",
+  "description": "Maicon Mauricio's contact information.",
+  "homepage": "https://github.com/maiconandsilva/npx-card-maiconandsilva#readme",
+  "repository": "github:maiconandsilva/npx-card-maiconandsilva",
+  "main": "index.js",
+  "bin": {
+    "maiconandsilva": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'Not implemented'",
+    "publish": "node publish.js"
+  },
+  "keywords": [
+    "maicon",
+    "maiconandsilva",
+    "person",
+    "contact",
+    "npx card",
+    "business card"
+  ],
+  "author": "Maicon Mauricio <maicon.mauricio@pm.me>",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "cowsay": "^1.5.0",
+    "prettyjson": "^1.2.1"
+  }
+}
