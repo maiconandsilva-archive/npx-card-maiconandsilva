@@ -17,9 +17,9 @@
   </div>
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="/assets/readme-typing-svg.herokuapp.com.svg">
-</p>
+</p> -->
 
 <p>
   <div align="center"><strong style="font-size: 18px">Requirements</strong>

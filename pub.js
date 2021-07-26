@@ -14,6 +14,8 @@ function concat_template(cmd, args, i = 0) {
 
 async function x(cmdarray, ...args) {
   const cmd = concat_template(cmdarray, args)
+  console.info(`command: ${cmd}`)
+
   try {
     const { stdout, stderr } = await exec(cmd)
 
@@ -27,12 +29,5 @@ async function x(cmdarray, ...args) {
   }
 }
 
-async function run() {
-  x`git add .`
-  x`git commit -m "bup new version"`
-  const version = await x`npm version patch`
-  x`git commit --amend -m "bump version ${version}"`
-  x`npm publish`
-}
-
-run()
+x`npm version minor`
+x`npm publish`
