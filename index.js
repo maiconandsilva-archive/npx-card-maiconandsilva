@@ -16,8 +16,8 @@ const name = colors.blue(String.raw`
 `)
 
 let obsinfo = {}
-// let _m = "ma"; _m += "icon.maur"; _m += "icio@p"; _m += "m.me"
-// obsinfo[`em${'a'}${'il'}`] = _m
+let _m = "ma"; _m += "iconand"; _m += "silva@g"; _m += "ma"; _m += "il"; _m += ".com"
+obsinfo[`em${'a'}${'il'}`] = _m
 
 let info = prettyjson.render({...obsinfo, ...info_json}, {
   dashColor: 'cyan',
